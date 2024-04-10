@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerMoyoFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=3)->[FirstFemale] [Last]</li>
+				<li>r_name(p=1)->[FirstFemale] '[NicknameFemale]' [Last]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FirstFemale->Names/FirstFemaleMoyo</li>
+				<li>Last->Names/LastMoyo</li>
+				<li>NicknameFemale->Names/NicknameFemaleMoyo</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerMoyoMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>r_name(p=3)->[FirstMale] [Last]</li>
+				<li>r_name(p=1)->[FirstMale] '[NicknameMale]' [Last]</li>
+			</rulesStrings>
+			<rulesFiles>
+				<li>FirstMale->Names/FirstMaleMoyo</li>
+				<li>Last->Names/LastMoyo</li>
+				<li>NicknameMale->Names/NicknameMaleMoyo</li>
+			</rulesFiles>
+		</rulePack>
+	</RulePackDef>
+	
+</Defs>

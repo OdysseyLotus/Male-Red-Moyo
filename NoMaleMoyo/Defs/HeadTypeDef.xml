@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HeadTypeDef ParentName="AverageBase" Name="MoyoMaleHead" Abstract="True">
+		<gender>Male</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase" Name="MoyoFemaleHead" Abstract="True">
+		<gender>Female</gender>
+	</HeadTypeDef>
+
+
+
+	<HeadTypeDef ParentName="MoyoFemaleHead">
+		<defName>Female_MoyoHead</defName>
+		<graphicPath>Moyo/Heads/Female_MoyoHead</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoFemaleHead">
+		<defName>Female_MoyoHead1</defName>
+		<graphicPath>Moyo/Heads/Female_MoyoHead1</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoFemaleHead">
+		<defName>Female_MoyoHead2</defName>
+		<graphicPath>Moyo/Heads/Female_MoyoHead2</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoFemaleHead">
+		<defName>Female_MoyoHead3</defName>
+		<graphicPath>Moyo/Heads/Female_MoyoHead3</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoFemaleHead">
+		<defName>Female_MoyoHead4</defName>
+		<graphicPath>Moyo/Heads/Female_MoyoHead4</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoFemaleHead">
+		<defName>Female_MoyoHead5</defName>
+		<graphicPath>Moyo/Heads/Female_MoyoHead5</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoFemaleHead">
+		<defName>Female_MoyoHead6</defName>
+		<graphicPath>Moyo/Heads/Female_MoyoHead6</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoFemaleHead">
+		<defName>Female_MoyoHead7</defName>
+		<graphicPath>Moyo/Heads/Female_MoyoHead7</graphicPath>
+	</HeadTypeDef>
+	
+	
+	
+	<HeadTypeDef ParentName="MoyoMaleHead">
+		<defName>Male_MoyoHead</defName>
+		<graphicPath>Moyo/Heads/Male_MoyoHead</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoMaleHead">
+		<defName>Male_MoyoHead1</defName>
+		<graphicPath>Moyo/Heads/Male_MoyoHead1</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoMaleHead">
+		<defName>Male_MoyoHead2</defName>
+		<graphicPath>Moyo/Heads/Male_MoyoHead2</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoMaleHead">
+		<defName>Male_MoyoHead3</defName>
+		<graphicPath>Moyo/Heads/Male_MoyoHead3</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoMaleHead">
+		<defName>Male_MoyoHead4</defName>
+		<graphicPath>Moyo/Heads/Male_MoyoHead4</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoMaleHead">
+		<defName>Male_MoyoHead5</defName>
+		<graphicPath>Moyo/Heads/Male_MoyoHead5</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoMaleHead">
+		<defName>Male_MoyoHead6</defName>
+		<graphicPath>Moyo/Heads/Male_MoyoHead6</graphicPath>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="MoyoMaleHead">
+		<defName>Male_MoyoHead7</defName>
+		<graphicPath>Moyo/Heads/Male_MoyoHead7</graphicPath>
+	</HeadTypeDef>
+	
+	
+</Defs>
