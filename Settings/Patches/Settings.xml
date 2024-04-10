@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="XmlExtensions.UseSetting">
+		<modId>MaleRedMoyo</modId>
+		<key>MaleRedMoyoProbSlider</key>
+		<defaultValue>0.5</defaultValue>
+		<apply>
+			<Operation Class="PatchOperationReplace">
+				<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/maleGenderProbability</xpath>
+				<value>
+					<maleGenderProbability>{MaleRedMoyoProbSlider}</maleGenderProbability>
+				</value>
+			</Operation>
+		</apply>
+	</Operation>
+
+</Patch>

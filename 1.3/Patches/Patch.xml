@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Red Moyo -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/useGenderedHeads</xpath>
+		<value>
+			<useGenderedHeads>true</useGenderedHeads>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/alienbodytypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<!-- Body Addon Offsets -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+		<value>
+			<headOffset>(-0.06, -0.05)</headOffset>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0,0)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0.551)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.34,0.193)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.424, 0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.45, 0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(-0.424, 0.5)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.45, 0.5)</Male>
+		</value>
+	</Operation>
+	
+	
+	<!-- Namers -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/CultureDef[defName="RedMoyo_Culture"]</xpath>
+		<value>
+			<pawnNameMakerFemale>NamerMoyoFemale</pawnNameMakerFemale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/CultureDef[defName="RedMoyo_Culture"]</xpath>
+		<value>
+			<pawnNameMaker>NamerMoyoMale</pawnNameMaker>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="RedMoyo_PlayerFaction"]</xpath>
+		<value>
+			<allowedCultures>
+				<li>RedMoyo_Culture</li>
+			</allowedCultures>
+		</value>
+	</Operation>
+	
+
+</Patch>
