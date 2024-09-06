@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- Red Moyo -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyTypes</xpath>
+		<value>
+			<li>Male</li>
+		</value>
+	</Operation>
+	
+	<!--<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/headTypes</xpath>
+		<value>
+			<headTypes>
+				<li>Female_MoyoHead</li>
+				<li>Female_MoyoHead1</li>
+				<li>Female_MoyoHead2</li>
+				<li>Female_MoyoHead3</li>
+				<li>Female_MoyoHead4</li>
+				<li>Female_MoyoHead5</li>
+				
+				<li>Male_MoyoHead</li>
+				<li>Male_MoyoHead1</li>
+				<li>Male_MoyoHead2</li>
+				<li>Male_MoyoHead3</li>
+				<li>Male_MoyoHead4</li>
+				<li>Male_MoyoHead5</li>
+			</headTypes>
+		</value>
+	</Operation>-->
+	
+	<!-- Body Addon Offsets -->
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/headOffset</xpath>
+		<value>
+			<headOffset>(-0.06, -0.05)</headOffset>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0,0)</Male>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0,0.551)</Male>
+		</value>
+	</Operation>
+			
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[1]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(-0.34,0.193)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[2]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/south/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/north/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[3]/offsets/east/bodyTypes</xpath>
+		<value>
+			<Male>(0.0, 0.0)</Male>
+		</value>
+	</Operation>
+	
+	
+	<!-- Namers -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/CultureDef[defName="RedMoyo_Culture"]</xpath>
+		<value>
+			<pawnNameMakerFemale>NamerMoyoFemale</pawnNameMakerFemale>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/CultureDef[defName="RedMoyo_Culture"]</xpath>
+		<value>
+			<pawnNameMaker>NamerMoyoMale</pawnNameMaker>
+		</value>
+	</Operation>
+	
+
+</Patch>
